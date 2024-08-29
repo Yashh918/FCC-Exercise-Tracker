@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Architects Daughter", cursive;
+  background-color: #121212;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+}
+
+.container h1{
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 3rem;
+}
+
+.forms form {
+  background-color: #222222;
+  color: #f2f2f2;
+  width: 49%;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  box-sizing: border-box;
+}
+
+.form form + form{
+  margin-left: 1rem;
+}
+
+.forms form h2{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+input[type=text],
+input[type=date],
+button[type=submit] {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 100;
+  width: 100%;
+  padding: 0.6rem 0.3rem;
+  margin: 0.5rem 0;
+  box-sizing: border-box;
+  border-style: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  background-color: #323232;
+  color: #fff;
+  transition: background-color 0.4s ease-out;
+}
+
+button[type=submit] {
+  background-color: #ff2546;
+  color: #fff;
+}
+
+button[type=submit]:hover {
+  background-color: #ff3251;
+  color: #e0e0e0  ;
+}
+
+button[type=submit]:active {
+  background-color: #ff0c31;
+}
+
+.container p{
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1rem;
+  color: #121212;
+  background-color: #f0ff48;
+  padding: 0.1rem 0.3rem;
+}
+
